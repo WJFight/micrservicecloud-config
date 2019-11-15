@@ -13,6 +13,11 @@ eureka:
   client:
     service-url:
        defaultZone: http://eureka-dev.com:7001/eureka/
+management:
+   endpoints:
+        web:
+             exposure:
+                  include: "*"
 ---
 server:
     port: 8202
