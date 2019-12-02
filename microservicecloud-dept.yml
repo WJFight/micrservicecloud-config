@@ -7,7 +7,7 @@ server:
   port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: org.wj.springcloud.entity
+  type-aliases-package: springcloud.entity
   mapper-locations: classpath:mybatis/mapper/*.xml
 spring:
   profiles: dev
@@ -41,7 +41,7 @@ server:
   port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: org.wj.springcloud.entity
+  type-aliases-package: springcloud.entity
   mapper-locations: classpath:mybatis/mapper/*.xml
 spring:
   profiles: test
